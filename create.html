@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>BLACK NATION</title> 
+	
+
+  <h1>
+  		<img src="map.png" alt="" width="30" height="30">
+  	Welcome To Black Nation</h1>
+    
+    <p>A page for African people that shows the culture and history of African countries</p>
+       <img src="map.png" width="150" height="150"></img>
+  
+
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			width: 500px;
+			margin: 50px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		 background-color: lightgray;  
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input, textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Sign in</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			
+			<label for="country">country:</label>
+			<select id="country" name="subject">
+				<option value="">Select a country</option>
+				<option value="Nigeria">Nigeria</option>
+				<option value="South Africa">South Africa</option>
+				<option value=" DRC Congo">DRC Congo</option>
+		 <option value="Algeria">Algeria</option>
+		 <option value="Ghana">Ghana</option>
+		 <option value="Cameroon">Cameroon</option>
+		 <option value="Cameroon">Cameroon</option>
+			<option value="Rwanda">Rwanda</option>
+			<option value="Botswana">Botswana</option>
+			<option value="Mali">Mali</option>
+			  <option value="Cote di' voire">Cote di' voire</option>
+			</select>
+		  
+	
+		 
+			
+			<input type="checkbox" id="terms" name="terms" required>
+			<label for="terms">I agree to the terms and conditions.</label>
+			
+			<input type="submit" value="sign up">
+		  
+		  <p>I already have an account? <button>Log in</button></p>
+		</form>
+	</div>
+
+  
+  
+</body>
+</html>
